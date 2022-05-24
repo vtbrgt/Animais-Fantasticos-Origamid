@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <script>
+      document.documentElement.className += ' js';
+    </script>
 
     <title>Animais Fantásticos</title>
   </head>
@@ -13,16 +16,18 @@
     <nav class="menu">
       <ul>
         <li><a href="#animais">Animais</a></li>
-        <li><a href="#animais">Faq</a></li>
-        <li><a href="#animais">Contato</a></li>
-        <li><a href="/">Dev →</a></li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li>
+          <a target="_blank" href="https://www.github.com/vtbrgt">Dev →</a>
+        </li>
       </ul>
     </nav>
 
     <section class="grid-section animais" id="animais">
       <h1 class="titulo">Animais Fantásticos</h1>
 
-      <ul class="animais-lista">
+      <ul class="animais-lista js-tabmenu">
         <li>
           <img src="img/imagem1.jpg" />
         </li>
@@ -47,7 +52,7 @@
           <img src="img/imagem6.jpg" />
         </li>
       </ul>
-      <div class="animais-descricao">
+      <div class="animais-descricao js-tabcontent">
         <section>
           <h2>Raposa</h2>
           <p>
@@ -154,7 +159,7 @@
     </section>
     <section class="grid-section faq" id="faq">
       <h1 class="titulo">FAQ</h1>
-      <dl class="faq-lista">
+      <dl class="faq-lista js-accordion">
         <dt>Qual a idade dos animais?</dt>
         <dd>
           As raposas são animais mamíferos e onívoros pertencentes à família
