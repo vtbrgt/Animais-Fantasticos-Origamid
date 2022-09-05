@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "specie": "Lobos",
@@ -16,3 +17,23 @@
     "total": 230
   }
 ]
+=======
+[
+  {
+    "specie": "Lobos",
+    "total": 4874
+  },
+  {
+    "specie": "Raposas",
+    "total": 5374
+  },
+  {
+    "specie": "Esquilos",
+    "total": 12340
+  },
+  {
+    "specie": "Ursos",
+    "total": 230
+  }
+]
+>>>>>>> eee1a9bdb16c6f84808f7a2c888afec21ea553af
